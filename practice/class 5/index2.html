@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex2</title>
+    <style>
+        .container{
+            
+            border: 1px solid black;
+            height: 1500px;
+            
+        }
+        .item{
+            display: inline-block;
+            border: 1px solid black;
+            background-color: cyan;
+            text-align: center;
+            border-radius: 3px;
+        }
+        #flex{
+            position: sticky;
+            top: 1px;
+            right: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">One</div>
+        <div class="item" id="flex">Two</div>
+        <div class="item">Three</div>
+        <div class="item" >Four</div>
+    </div>
+</body>
+</html>

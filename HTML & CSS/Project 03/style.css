@@ -1,0 +1,184 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+* {
+  margin: 0%;
+  padding: 0%;
+  font-size: 60%;
+}
+body {
+  background-color: #fff;
+  font-family: "orbitron", sans-serif;
+  font-weight: 400;
+}
+li {
+  list-style: none;
+  font-size: 1.6rem;
+}
+p {
+  font-size: 1.6rem;
+}
+nav > div > img {
+  width: 110px;
+}
+.navbar {
+  padding: 2rem 2rem;
+}
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 4rem;
+  margin-top: 25px;
+}
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 4rem;
+}
+.list li {
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 500;
+  letter-spacing: 1px;
+  position: relative;
+}
+.list li::after {
+  content: "";
+  position: absolute;
+  bottom: -0.5rem;
+  left: 0;
+  width: 0%;
+  height: 0.2rem;
+  background-color: #000000;
+  transition: width 0.2s ease-in;
+}
+.list li:hover::after {
+  width: 70%;
+}
+.list li:first-child::after {
+  width: 80%;
+}
+.button-group {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: row;
+}
+.nav-button {
+  background-color: transparent;
+  font-family: "poppins", sans-serif;
+  font-size: 1.4rem;
+  padding: 3px 35px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+/* banner section */
+.hero-container {
+  display: flex;
+  width: 100%;
+  min-height: calc(100vh- 70vh);
+  position: relative;
+  gap: 2rem;
+  justify-content: space-between;
+  text-align: center;
+}
+.star {
+  position: absolute;
+  display: inline-block;
+  top: 2%;
+  right: 10%;
+}
+.star:nth-child(2) {
+  top: 80%;
+  left: 10%;
+}
+.star img {
+  width: 40px;
+  margin-top: 65px;
+}
+.globe {
+  position: absolute;
+  display: inline-block;
+  top: 5%;
+  left: 60%;
+}
+.globe img {
+  width: 50px;
+  max-width: 350px;
+  object-fit: cover;
+  margin-left: -125px;
+}
+div img[alt="person-hero-iamge"] {
+  position: absolute;
+  top: 95%;
+  left: 3%;
+  translate: 0 -100%;
+  width: 380px;
+  height: 470px;
+}
+.square {
+    position: absolute;
+    display: none;
+    display: inline-block;
+    z-index: -1;
+    top: 43%;
+    left: 5%;
+    translate: 0 -16%;
+    width: 100px;
+}
+.hero-container-right {
+  width: 60%;
+  display: flex;
+  gap: 4rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-inline: 3rem;
+}
+.hero-heading {
+  font-size: 5rem;
+  margin-top: 135px;
+}
+.hero-description {
+  font-size: 1.5rem;
+  font-family: "poppins";
+  max-width: 600px;
+  margin-inline: auto;
+}
+.button-email,
+.button-join {
+  font-family: "orbitron";
+  font-size: 1.5rem;
+  border-radius: 12px;
+  margin-top: 40px;
+}
+.button-email {
+  background-color: transparent;
+  padding: 1rem 4rem;
+}
+.button-join {
+  background-color: #000000;
+  color: #fff;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  margin-left: 1rem;
+}
+.contact-heading {
+  font-size: 1.4rem;
+  font-family: "poppins";
+  font-weight: 400;
+  margin-top: 4rem;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.icons span img{
+    width: 30px;
+    cursor: pointer;
+}

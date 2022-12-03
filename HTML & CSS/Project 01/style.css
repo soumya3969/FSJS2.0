@@ -1,0 +1,87 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+*{
+    background-color: #ffffff;
+    font-family: sans-serif;
+}
+.navbar-container{
+    display: flex;
+    justify-content: flex-start;
+    padding: 15px;
+    row-gap: 100px;
+}
+.navbar-container>div>img{
+    width: 190px;
+    margin-top: 2px;
+    margin-left: 100px;
+}
+.list{
+    margin-top: 25px;
+    display: flex;
+    list-style-type: none;
+    gap: 60px;
+    font-size: large;
+    justify-content: flex-start;
+}
+.list-item{
+    color: #979393;
+}
+li:first-child{
+    color: #000000;
+    font: bold;
+}
+.list-item:hover{
+    color: #000000;
+
+}
+.button-group > .nav-button{
+    background-color: #5955b3;
+    height: 65px;
+    width: 200PX;
+    border: 1px solid #5955b3;
+    color: #ffffff;
+    font-size: large;
+    border-radius: 12px;
+    margin-left: 440px;
+    margin-right: 130px;
+}
+.banner-container{
+    display: flex;
+    margin-left: 100px;
+}
+.banner-container>div{
+    display: flex;
+    flex-direction: column;
+}
+.heading-text{
+    margin-top: 110px;
+    height: 180px;
+    width: 500px;
+    color: #3c2f60;
+    font-size: 75px;
+
+}
+.heading-text>span{
+    color: #6b66ce;
+}
+.description{
+    margin-top: 60px;
+    font-size: 23px;
+    width: 500px;
+    height: 60px;
+    color: #979393;
+}
+.btn{
+    background-color: #5955b3;
+    height: 70px;
+    width: 270PX;
+    border: 1px solid #5955b3;
+    color: #ffffff;
+    font-size: large;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+.banner-container>div>img{
+    height: 800px;
+    width: 1000px;
+}

@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f5ed;
+    font-family: sans-serif;
+}
+nav{
+    padding: 20px 10%;
+    height: 15vh;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+nav ul li{
+    list-style: none;
+    /* margin-right: 5%; */
+    font-weight: 500;
+}
+
+/* hero section */
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+}
+/* left content */
+.leftmain{
+width: 40%;
+}
+.leftmain h1{
+    font-size: 70px;
+}
+.leftmain p{
+    margin: 5% 0;
+}
+.leftmain button{
+    padding: 15px 20px;
+    border: none;
+    background-color: #3b855b;
+    border-radius: 12px;
+    color: white;
+    font-weight: 500;
+}
+
+.rightmain{
+width: 60%;
+margin-right: -80px;
+}
+.rightmain div :nth-child(2){
+    margin-left: 5px;
+}
+.lowerimg{
+    margin-top: 5px;
+}
