@@ -25,20 +25,20 @@ Here are the projects given in classes
 >## project-4
 >> [link][def]
 
-[def]: ./Project%2004/index1.html
+[def]: ./project%2004/index1.html
 **Output:-**
-![output](./Project%2004/output.png)
+![output](./project%2004/output.png)
 
 >## project-5
 >> [link][def]
 
-[def]: ./Project%2005/index.html
+[def]: ./project%2005/index.html
 **Output:-**
-![output](./Project%2005/output.png)
+![output](./project%2005/output.png)
 
 >## project-6
 >> [link][def]
 
 [def]: ./Project%2006/index.html
 **Output:-**
-![output](./Project%2006/output.png)
+![output](./Project%2006/Output.png)
