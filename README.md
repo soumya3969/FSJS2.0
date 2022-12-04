@@ -6,7 +6,7 @@ HERE ARE THE PATHS TO GET THE ALL REPOSITORIES
 
 
 
->## [HTML & CSS](./HTML%20%26%20CSS/README.md)
+>## [HTML & CSS](./HTML%20%26%20CSS/README.MD)
 >>All the projects on HTML and CSS is here.
 
 >## [Java Script](./JS/README.md)
