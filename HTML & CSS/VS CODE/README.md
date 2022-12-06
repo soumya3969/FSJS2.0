@@ -6,7 +6,7 @@ Hey there its my project on VS-CODE clone.
 >>tailwind provide user to stay in single page to design whole webpage.
 
 >>Here are the out put of my web page. <br>
-![output](./Assets/VSCODE%20SS.png)
+![output](./Assets/code%20ss.png)
 VS CODE Official Link:-[link](https://code.visualstudio.com/)
 
 [Code-Link](./index.html)
