@@ -1,0 +1,835 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;900&display=swap');
+/* Global value Use padding: 1rem 5%; this to every main, main-div, or container to make center */
+:root{
+    --bg--black: #151515;
+    --bg--gray: #292929;
+    --bg--lightPink:#fceffb;
+    --txt--white: #ffffff;
+    --txt--purple: #f737ed;
+    --txt--gray: #8c8d8c;
+    --txt--Darkgray: #d1d1d1;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Mulish', sans-serif;
+    background-color: var(--bg--black);
+}
+/* Util means for my sake this all are common classes */
+.flex1{
+    display: flex;
+}
+.align{
+    justify-content: center;
+    align-items: center;
+}
+span{
+    color: var(--txt--purple);
+}
+/* NavbarCSS */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 5%;
+    background-color: var(--bg--black);
+    color: var(--txt--white);
+    width: 100%;
+}
+img[alt="Logo"]{
+    width: 10rem;
+}
+.list{
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+.list li{
+    list-style: none;
+    font-size: 1rem;
+}
+.left_Nav{
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+.left_Nav p{
+    font-size: 1rem;
+}
+.left_Nav p::after{
+    content: '\01F893';
+    font-size: 16px;
+    font-weight: 900;
+    position: relative;
+    left: 8px;
+    bottom: -8px;
+}
+.nav_Btn{
+    background: url("./Assets/Icons/btn-pink-bg.svg") no-repeat left;
+    background-position: 0% 50%;
+    background-size: 40%;
+    color: var(--txt--white);
+    font-family: 'Mulish', sans-serif;
+    font-size: 1rem;
+    border: none;
+    padding: 2px 10px;
+}
+/* MainSection */
+/* main{
+    padding: 1rem 5%;
+} */
+/* First Container */
+.firstContainer{
+    padding: 1rem 5%;
+    background-color: var(--bg--black);
+    color: var(--txt--white);
+    width: 100%;
+    height: 90vh;
+}
+.head_description{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: flex-start;
+}
+.head_description h1{
+    width: 60%;
+    letter-spacing: 1px;
+    line-height: 1;
+    font-size: 4.4rem;
+    font-weight: 400;
+}
+.head_description h1 span{
+    font-weight: 600;
+    font-size: 4.8rem;
+}
+.head_description p{
+    width: 40%;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--txt--gray);
+}
+.desc_btn{
+    font-size: 1.3rem;
+    padding: 2px 1.5rem;
+    background-size: 30%;
+}
+.desc_btn::after{
+    content: '\27F6';
+    font-size: 28px;
+    position: relative;
+    top: 2px;
+    left: 7px;
+    font-weight: 400;
+}
+.descriptionBottom{
+    margin-top: 2rem;
+    gap: 1rem;
+}
+.descriptionBottom h3{
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+.descriptionBottom span{
+    text-align: center;
+    margin-left: 8px;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.descriptionBottom p{
+    font-weight: 600;
+    width: 70%;
+    margin-left: -15px;
+}
+.extra{
+    margin-left: 2rem;
+}
+img[alt="FrontCards"]{
+    position: absolute;
+    height: 80vh;
+    right: 1rem;
+    z-index: 1;
+}
+img[alt="BackCards"]{
+    position: absolute;
+    height: 80vh;
+    top: 3rem;
+    right: 12rem;
+    z-index: 0;
+    opacity: 0.6;
+}
+/* Second container */
+.secondContainer{
+    width: 100%;
+    padding: 1rem 5%;
+    background-color: var(--bg--gray);
+}
+.logos{
+    padding: 3%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 7rem;
+}
+img[alt="Logo2"]{
+    width: 12rem;
+}
+/* LOL actual third container call it mid container */
+.midContainer{
+    padding: 1rem 5%;
+    background-color: var(--bg--black);
+    width: 100%;
+}
+.midContainerFlex{
+    padding: 5% 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 7rem;
+}
+.midDescription{
+    flex-direction: row;
+    align-items: center;
+    color: var(--txt--white);
+}
+.midDescription h1{
+    width: 50%;
+    letter-spacing: 1px;
+    font-size: 5rem;
+    font-weight: 400;
+}
+.midDescription h1 span{
+    font-size: 5rem;
+    font-weight: 600;
+}
+.midDescription p{
+    width: 40%;
+    font-size: 1.5rem;
+}
+.midCards{
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    color: var(--txt--white);
+}
+.card{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+    border-top:3px groove var(--txt--gray);
+    border-left:3px groove var(--txt--gray);
+    border-bottom: 1px groove var(--txt--gray);
+    border-right:1px groove var(--txt--gray) ;
+    box-shadow: rgba(237, 232, 232, 0.1) 0px 1px 3px 0px, rgba(253, 252, 252, 0.06) 0px 1px 2px 0px;
+    padding: 3rem 2rem;
+    width: 100%;
+    background-color: #272727;
+}
+.card:nth-child(2){
+    padding: 2.18rem;
+    margin-top: -10rem;
+    border-top:3px solid var(--txt--Darkgray);
+    border-left:3px solid var(--txt--Darkgray);
+    border-bottom: 2px solid var(--txt--gray);
+    border-right:2px solid var(--txt--gray) ;
+    background: linear-gradient(90deg,#403c3b,#5b5a5a);
+}
+img[alt="dollar-circle"]{
+    width: 8rem;
+}
+.card p{
+    width: 100%;
+    font-size: 1.5rem;
+}
+/* Third Container */
+.thirdContainer{
+    padding: 1rem 5%;
+    background-color: var(--bg--lightPink);
+    width: 100%;
+}
+.thirdDescriptions{
+    padding-top: 5%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.thirdDescriptions h1{
+    text-align: center;
+    width: 60%;
+    letter-spacing: 1px;
+    font-size: 5rem;
+    font-weight: 400;
+}
+.thirdDescriptions h1 span{
+    margin-top: 1rem;
+    font-size: 4.5rem;
+    font-weight: 600;
+}
+.thirdDescriptions p{
+    margin-top: 3rem;
+    text-align: center;
+    width: 50%;
+    font-size: 1.5rem;
+}
+.thirdDescriptions .thirdImage{
+    margin-top: -2.5rem;
+}
+img[alt="VCards"]{
+    width: 100%;
+}
+/* Fourth Container */
+.fourthContainer{
+    padding: 1rem 5%;
+    background-color: var(--bg--black);
+    width: 100%;
+}
+.fourthDescriptions{
+    padding: 5% 0%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    color: var(--txt--white);
+}
+.fourthDescriptions h1{
+    font-size: 5rem;
+    font-weight: 500;
+    text-align: center;
+    width: 65%;
+}
+.fourthDescriptions h1 span{
+    font-size: 5rem;
+    font-weight: 600;
+}
+.fourthDescriptions .fourthDescPara{
+    text-align: center;
+    width: 35%;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--txt--Darkgray);
+}
+.fourthDescriptions .gridContainer{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 4rem;
+    row-gap: 2rem;
+}
+.gridItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vh;
+    padding: 1rem 2rem;
+    border-top:3px groove var(--txt--gray);
+    border-left:3px groove var(--txt--gray);
+    border-bottom: 1px groove var(--txt--gray);
+    border-right:1px groove var(--txt--gray) ;
+    box-shadow: rgba(237, 232, 232, 0.1) 0px 1px 3px 0px, rgba(253, 252, 252, 0.06) 0px 1px 2px 0px; 
+    background-color: #272727;
+}
+.gridItem:first-child{
+    margin-bottom:2rem;
+    border-top:3px solid var(--txt--Darkgray);
+    border-left:3px solid var(--txt--Darkgray);
+    border-bottom: 2px solid var(--txt--gray);
+    border-right:2px solid var(--txt--gray) ;
+    background: linear-gradient(90deg,#403c3b,#5b5a5a);
+}
+.gridItem p{
+    width: 100%;
+    text-align: left;
+    margin: 1.5rem 0px;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.custName p{
+    margin: 0;
+}
+.custName p:nth-child(2){
+    color: var(--txt--gray);
+    font-weight: 600;
+    font-size: 1rem;
+}
+.bottomScrolls{
+    margin-top: 3rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.firstScroll{
+    width: 5rem;
+    height: 1rem;
+    border-radius: 10px;
+    background-color: var(--txt--purple);
+    box-shadow: 1px 3px 40px 1px var(--txt--purple);
+}
+.otherScrolls{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: var(--txt--gray);
+}
+/* Fifth container */
+.fifthContainer1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img[alt="Back_rect"]{
+    width: 100%;
+    height: 50vh;
+    z-index: 0;
+}
+img[alt="Blur_rect"]{
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    bottom: 30rem;
+    z-index: 1;
+}
+img[alt="Left_diamond"]{
+    height: 47vh;
+    position: relative;
+    bottom: 58rem;
+    left: 44.5rem;
+    z-index: 2;
+}
+img[alt="Right_diamond"]{
+    height: 47vh;
+    position: relative;
+    bottom: 90rem;
+    right: 45rem;
+    z-index: 2;
+}
+.fifthContainer1 .fifthContainerDesc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: -108rem;
+    z-index: 3;
+}
+.fifthContainer1 .fifthContainerDesc h1{
+    font-size: 4rem;
+    font-weight: 400;
+    color: var(--txt--white);
+}
+.fifthContainer1 .fifthContainerDesc h1 span{
+    font-size: 4rem;
+    font-weight: 400;
+    color: var(--bg--black);
+}
+.bottomContainer{
+    margin-top: 20rem;
+    padding: 1rem 5%;
+}
+.bottomDesc{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30rem;
+    color: var(--txt--white);
+}
+.bottomDesc .botList{
+    display: flex;
+    gap: 4rem;
+}
+.bottomDesc .botList li{
+    list-style: none;
+}
+
+@media (max-width: 1440px) {
+    /* Navbar and first container media queries */
+    img[alt="Logo"]{
+        width: 8rem;
+    }
+    .firstContainer{
+        height: 95vh;
+    }
+    .head_description h1{
+        width: 80%;
+    }
+    /* Second container */
+    .logos{
+        padding: 2.5%;
+        gap:4rem;
+    }
+    img[alt="Logo2"]{
+        width: 10rem;
+    }
+    /* third container */
+    .thirdDescriptions h1{
+        width: 70%;
+    }
+    .thirdDescriptions p{
+        width: 60%;
+    }
+    /* midContainer */
+    .midDescription h1{
+        width: 60%;
+    }
+    /* Fourth container */
+    .gridItem{
+        width: 90vh;
+    }
+    .fourthDescriptions h1{
+        width: 75%;
+    }
+    .fourthDescriptions .fourthDescPara{
+        width: 55%;
+    }
+    /* fifth Container */
+    img[alt="Blur_rect"]{
+        bottom: 18rem;
+    }
+    img[alt="Left_diamond"]{
+        height: 47vh;
+        bottom: 34rem;
+        left: 36rem;
+    }
+    img[alt="Right_diamond"]{
+        height: 47vh;
+        position: relative;
+        bottom: 53.5rem;
+        right: 36.5rem;
+        z-index: 2;
+    }
+    .fifthContainer1 .fifthContainerDesc{
+        gap: 2rem;
+        margin-top: -65rem;
+    }
+    .bottomContainer{
+        margin-top: 10rem;
+        padding: 1rem 5%;
+    }
+    .bottomDesc{
+        gap: 20rem;
+    }
+}
+@media (max-width:1024px) {
+    /* Navbar and first container media queries */
+    img[alt="Logo"]{
+        width: 7rem;
+    }
+    img[alt="FrontCards"] , img[alt="BackCards"]{
+        height: 75vh;
+    }
+    img[alt="BackCards"]{
+        right: 9rem;
+    }
+    img[alt="FrontCards"]{
+        right: 0;
+    }
+    .head_description h1{
+        font-size: 4rem;
+    }
+    .head_description h1 span{
+        font-weight: 700;
+    }
+    .descriptionBottom{
+        margin-top: 0;
+    }
+    /* midDescription */
+    .midDescription{
+        gap: 1rem;
+    }
+    .midDescription h1, .midDescription h1 span{
+        font-size: 4rem;
+    }
+    /* Second container */
+    .logos{
+        padding: 1%;
+        gap:3rem;
+    }
+    img[alt="Logo2"]{
+        width: 8rem;
+    }
+    /* third container */
+    .thirdDescriptions h1{
+        width: 100%;
+        /* font-size: 4rem; */
+    }
+    .thirdDescriptions p{
+        width: 80%;
+    }
+    .thirdDescriptions .thirdImage{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    img[alt="VCards"]{
+        width: 100%;
+    }
+    /* fourth container */
+    .fourthDescriptions .gridContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .gridItem:first-child{
+        margin-bottom: 0;
+        margin-left: 2rem;
+    }
+    .otherScrolls{
+        display: none;
+    }
+    .fourthDescriptions h1{
+        width: 100%;
+    }
+    .fourthDescriptions .fourthDescPara{
+        width: 80%;
+    }
+     /* fifth Container */
+    img[alt="Back_rect"] , img[alt="Blur_rect"] , img[alt="Left_diamond"],img[alt="Right_diamond"]{
+        display: none;
+    }
+    .fifthContainer > .fifthContainer1 > .fifthContainerDesc{
+        margin: 0;
+        color: var(--txt--white);
+        margin-bottom: 4%;
+    }
+    .fifthContainer > .fifthContainer1 > .fifthContainerDesc > h1 {
+        text-align: center;
+    } 
+    .fifthContainer > .fifthContainer1 > .fifthContainerDesc > h1 > span{
+        color: var(--txt--purple);
+    }
+    .bottomContainer{
+        margin-top: 5rem;
+        padding: 1rem 5%;
+    }
+    .bottomDesc{
+        gap: 15rem;
+    }
+}
+
+@media (max-width:768px) {
+    /* Navbar and first container media queries */
+    .left_Nav p{
+        display: none;
+    }
+    img[alt="FrontCards"]{
+        display: none;
+    }
+    .head_description{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    img[alt="BackCards"]{
+        right: 3rem;
+        opacity: 1.5;
+    }
+    .descriptionBottom{
+        margin-top: 0;
+    }
+    /* Second container */
+    .logos{
+        padding: 0%;
+        gap:1.3rem;
+    }
+    img[alt="Logo2"]{
+        width: 6rem;
+    }
+    /* third container */
+    .thirdDescriptions{
+        padding: 3% 0;
+    }
+    .thirdDescriptions h1{
+        font-size: 4rem;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    .thirdDescriptions h1 span{
+        font-weight: 700;
+    }
+    .thirdDescriptions p{
+        width: 100%;
+    }
+    /* midContainer */
+    .midDescription h1, .midDescription h1 span{
+        font-size: 3.5rem;
+    }
+    .midCards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .card{
+        width: 60%;
+        padding: 3rem 2rem;
+    }
+    .card:nth-child(2){
+        margin-top: 0;
+        margin-left: 3rem;
+    }
+    /* fourth Container */
+    .fourthDescriptions h1{
+        font-size: 4rem;
+    }
+    .fourthDescriptions h1 span{
+        font-size: 4.5rem;
+    }
+    .fourthDescriptions .fourthDescPara{
+        width: 90%;
+        font-size: 1.1rem;
+    }
+    .gridItem{
+        width: 80vh;
+    }
+    .gridItem p{
+        font-size: 1rem;
+    }
+    img[alt="Base_rect"] ,  img[alt="Blur_rect"]{
+        display: none;
+    }
+    .bottomContainer{
+        margin-top: 3rem;
+        padding: 1rem 5%;
+    }
+    .bottomDesc{
+        gap: 3rem;
+    }
+
+}
+@media (max-width:425px) {
+    /* Navbar and first container media queries */
+    *{
+        box-sizing: unset;
+    }
+    nav , .firstContainer, .secondContainer, .thirdContainer , .midContainer, .fourthContainer, .fifthContainer , .bottomContainer{
+        padding: 1rem;
+    }
+    nav{
+        justify-content: center;
+        gap: 4rem;
+    }
+    .list{
+        display: none;
+    }
+    .head_description{
+        gap: 1.5rem;
+    }
+    .head_description h1{
+        font-size: 2.5rem;
+    }
+    .head_description h1 span{
+        font-size: 3rem;
+    }
+    .head_description p{
+        font-size: 1rem;
+    }
+    .desc_btn{
+        font-size: 1rem;
+    }
+    .desc_btn::after{
+        font-size: 16px;
+    }
+    img[alt="BackCards"]{
+        right: -2rem;
+        height: 60vh;
+    }
+    img[alt="Vector"]{
+        display: none;
+    }
+    .extra{
+        margin-left: 0;
+    }
+    .descriptionBottom{
+        flex-direction: column;
+    }
+    .mobile1 div h3{
+        font-size: 1.5rem;
+    }
+    .mobile1 div span{
+        font-size: 1rem;
+    }
+    /* third container */
+    .thirdDescriptions h1{
+        font-size: 3rem;
+        font-weight: 500;
+        z-index: 1;
+    }
+    .thirdDescriptions p{
+        font-size: 1.2rem;
+        z-index: 1;
+    }
+    .midDescription{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .midDescription h1, .midDescription p{
+        width: 100%;
+    }
+    img[alt="dollar-circle"]{
+        width: 6rem;
+    }
+    .card{
+        width: 50%;
+    }
+    .midContainerFlex{
+        gap: 3rem;
+    }
+     /* fourth Container */
+     .fourthDescriptions h1{
+        font-size: 3.5rem;
+    }
+    .fourthDescriptions h1 span{
+        font-size: 3.5rem;
+    }
+    .gridItem{
+        width: 50vh;
+    }
+    .bottomScrolls{
+        display: none;
+    }
+    .gridContainer{
+        margin-bottom: 3rem;
+    }
+    .bottomDesc{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .botList li{
+        display: none;
+    }
+}
+@media (max-width:375px) {
+    /* third container */
+    .thirdDescriptions h1{
+        font-size: 2.5rem;
+    }
+    .thirdDescriptions h1 span{
+        font-size: 2.8rem;
+    }
+    .midDescription h1, .midDescription h1 span{
+        font-size: 3rem;
+    }
+    .midDescription p{
+        font-size: 1.2rem;
+    }
+     /* fourth Container */
+    .gridItem{
+        width: 44vh;
+    }
+    .gridItem:first-child{
+        margin-left: 14px;
+    }
+}
