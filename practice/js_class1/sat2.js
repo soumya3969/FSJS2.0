@@ -45,16 +45,47 @@
 // let bal = 15000; //bank balance keep changing so cant be constant 
 
 
-let firstname = "Soumya";
-let lastname = "mahanta";
-const Mobmo = 9937446657;
+// let firstname = "Soumya";
+// let lastname = "mahanta";
+// const Mobmo = 9937446657;
 
-// console.log("My first name is: ",firstname);
-// console.log("MY last name is:" + lastname);
-// console.log("my number is",Mobmo,"My first name is: ",firstname);
+// // console.log("My first name is: ",firstname);
+// // console.log("MY last name is:" + lastname);
+// // console.log("my number is",Mobmo,"My first name is: ",firstname);
 
 
-//template literal
+// //template literal
 
-console.log(`my first name is ${firstname},my lastname is ${lastname},my contactno is ${Mobmo}`);
+// console.log(`my first name is ${firstname},my lastname is ${lastname},my contactno is ${Mobmo}`);
+
+
+
+//Operators
+// //assigment operator
+// let x = 10;
+// let y = 10;
+// //arithmatic operators
+// //+ ,- ,* ,/ ,(%=> remainder)
+
+// let z = x + y;
+// console.log(z);
+// console.log(x + y);
+// console.log(x - y);
+// console.log(x * y);
+// console.log(x / y);
+// console.log(x % y);
+
+//comparition operator
+
+let abc = 10;
+let xyz = '10';
+
+// console.log(abc > xyz);
+// console.log(abc < xyz);
+// console.log(abc >= xyz);
+
+//== or ===
+// == compare values where as === compare values as well as data-types
+console.log(abc == xyz );
+console.log(abc === xyz );
 
