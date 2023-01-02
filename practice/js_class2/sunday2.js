@@ -42,11 +42,22 @@
 // console.log(n);
 // console.log(n[4]);
 
-let bankac = {
-    firstname:"soumya",
-    lastname:"mahanta",
-    mobileno:9937446657,
-    balance:10000,
-};
-console.log(bankac);
-console.log("balance",bankac.balance);
+// let bankac = {
+//     firstname:"soumya",
+//     lastname:"mahanta",
+//     mobileno:9937446657,
+//     balance:10000,
+// };
+// console.log(bankac);
+// console.log("balance",bankac.balance);
+
+
+const now = new Date();
+console.log(now.toString());
+console.log(now.getFullYear());
+console.log(now.getMonth());
+console.log(now.getDay());
+console.log(now.getTime());
+console.log(now.getHours());
+console.log(now.getMinutes());
+console.log(now.getSeconds());
