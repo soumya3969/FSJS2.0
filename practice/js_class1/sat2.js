@@ -77,15 +77,38 @@
 
 //comparition operator
 
-let abc = 10;
-let xyz = '10';
+// let abc = 10;
+// let xyz = '10';
 
-// console.log(abc > xyz);
-// console.log(abc < xyz);
-// console.log(abc >= xyz);
+// // console.log(abc > xyz);
+// // console.log(abc < xyz);
+// // console.log(abc >= xyz);
 
-//== or ===
-// == compare values where as === compare values as well as data-types
-console.log(abc == xyz );
-console.log(abc === xyz );
+// //== or ===
+// // == compare values where as === compare values as well as data-types
+// console.log(abc == xyz );
+// console.log(abc === xyz );
 
+//decisions or conditions
+
+// let age = 18;
+// if (age>=18) {
+//     console.log("You are Allowed inside the park");   
+// }
+// else{
+//     console.log("Out of the park");
+
+// }
+
+let std = 4;
+
+if (std==1) {
+    console.log("Room One");
+} else if(std==2) {
+    console.log("room two");
+}else if (std==3) {
+    console.log("Room three");
+}
+else{
+    console.log("You are principal");
+}

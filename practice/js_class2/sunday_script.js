@@ -40,6 +40,6 @@
 
 //ternary operators:-/ternary conditions:-
 
-let raining = false;
+let raining = true;
 
 raining ? console.log("it is raining") : console.log("it is not raining");
