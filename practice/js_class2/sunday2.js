@@ -51,13 +51,36 @@
 // console.log(bankac);
 // console.log("balance",bankac.balance);
 
+//date & math
 
-const now = new Date();
-console.log(now.toString());
-console.log(now.getFullYear());
-console.log(now.getMonth());
-console.log(now.getDay());
-console.log(now.getTime());
-console.log(now.getHours());
-console.log(now.getMinutes());
-console.log(now.getSeconds());
+// const now = new Date();
+// console.log(now.toString());
+// console.log(now.getFullYear());
+// console.log(now.getMonth());
+// console.log(now.getDay());
+// console.log(now.getTime());
+// console.log(now.getHours());
+// console.log(now.getMinutes());
+// console.log(now.getSeconds(),);
+
+
+//math
+// const PI = Math.PI;
+// console.log(PI);
+// console.log(Math.round(PI));
+// console.log(Math.round(9.5));
+// console.log(Math.floor(9.5));
+// console.log(Math.ceil(9.5));
+
+
+//min max
+
+// console.log(Math.min(10,1,2,3,5));
+// console.log(Math.max(10,1,2,3,5));
+
+//Rnadom
+
+// console.log(Math.random()); //0 - 0.999999999999999999999 (0-1)
+// console.log(Math.random() * 10);
+// console.log(Math.round(Math.random() * 10));
+
