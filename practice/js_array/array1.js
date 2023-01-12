@@ -40,13 +40,13 @@ let arr3 = [6,7,6,7];
 // fill=> HW
 
 let arr4 =[1,2,3,4,5,6,7,8,9];
-// arr4.fill('soumya',2,4);
+// arr4.fill('soumya','litu',2,4);
 // console.log(arr4);
 
 // include
 
 let num=[1,2,3,4,5,6,7,8,9];
-// console.log(num.includes(7,7));
+// console.log(num.includes(7,6));
 
 
 //indexof
@@ -54,6 +54,8 @@ let num=[1,2,3,4,5,6,7,8,9];
 let nums=[1,2,3,'sameer',5,6,7,8,'soumya'];
 // console.log(nums.indexOf('sameer'));
 
-console.log(Math.random()); //0 - 0.999999999999999999999 (0-1)
-console.log(Math.random() * 10);
-console.log(Math.round(Math.random() * 10));
+// console.log(Math.random()); //0 - 0.999999999999999999999 (0-1)
+// console.log(Math.random() * 10);
+// console.log(Math.round(Math.random() * 10));
+
+
