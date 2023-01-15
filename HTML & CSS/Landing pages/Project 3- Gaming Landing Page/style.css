@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: rgba(158, 157, 157, 0.918);
+}
+@font-face {
+    font-family: poppins;
+    src: url(./Poppins-fonts/Poppins-Light.ttf);
+    src: url(./Poppins-fonts/Poppins-Bold.ttf);
+}
+body{
+    font-family: poppins;
+
+}
+/* sec 1 */
+.sec1-n-nav{
+    background: url(./Assets/Photos/futuristic-bg.png);
+    background-color: rgba(0, 0, 0, 0.500);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    color: #ffffff;
+    padding: 0px 0vw;
+}
+/* nav-bar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 0px;
+
+}
+.logo-list{
+    display: flex;
+    gap: 6vw;
+}
+.nav-logo{
+    height: 45px;
+}
