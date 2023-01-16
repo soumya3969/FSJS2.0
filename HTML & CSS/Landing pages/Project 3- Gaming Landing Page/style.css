@@ -1,7 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    color: rgba(158, 157, 157, 0.918);
+    color: rgba(197, 193, 193, 0.918);
 }
 @font-face {
     font-family: poppins;
@@ -23,6 +23,10 @@ body{
     color: #ffffff;
     padding: 0px 0vw;
 }
+.btn:hover{
+    cursor: pointer;
+    /* border-radius: 15rem; */
+}
 /* nav-bar */
 nav{
     display: flex;
@@ -37,3 +41,102 @@ nav{
 .nav-logo{
     height: 45px;
 }
+.nav-menu-list{
+    display: flex;
+    list-style-type: none;
+    justify-content: baseline;
+}
+.menu-item{
+    text-decoration: none;
+    padding-left: 3vw;
+}
+.menu-item:hover{
+    color: #da3f20;
+    transition: all 0.5s;
+}
+.sign-in{
+    background: none;
+    border: none;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 12px 2rem;
+}
+.sign-in:hover{
+    background-color: #da3f20b4;
+    transition: ease-in-out 1s;
+    /* border-radius: 1rem; */
+}
+.sign-up{
+    background-color: #f4694c;
+    border: none;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 12px 2rem;
+}
+.sign-up:hover{
+    background-color: #da3f20;
+    transition: ease-in-out 1s;
+}
+/* sec1 */
+.sec1{
+    display: flex;
+    justify-content: space-between;
+    padding: 6vw 0px;
+
+}
+.sec1-left{
+    width: fit-content;
+}
+.sec1-heading{
+    font-size: 44px;
+    color: #ffffff;
+    font-weight: 900;
+}
+.sec1-para{
+    padding: 2vw 0px;
+    width: 40vw;
+}
+.sec1-left>button{
+    padding: 15px 30px;
+    color: #ffffff;
+    border: none;
+    background-color: #f4694c;
+    font-weight: 600;
+    margin-right: 2rem;
+}
+.sec1-left>.learn-more{
+    background: none;
+    border: solid 2px rgba(197, 197, 197, 0.733);
+}
+.sec1-left>button:hover{
+    background-color: #da3f20;
+    transition: ease 1s;
+}
+.sec1-play-btn{
+    margin: 6vw 10vw;
+
+}
+.sec1-play-btn:hover{
+    opacity: 0.7;
+    transition: all 0.5s;
+}
+.king-of{
+    display: flex;
+    margin: 1vw 0px;
+}
+.sec1-right-para{
+    font-size: 2rem;
+}
+.sec1-dash{
+    margin-top: 0.5em;
+    padding-right: 2vw;
+}
+.sec1-right-arrow{
+    display: flex;
+    margin-left: 3vw;
+    align-items: flex-end;
+    padding-bottom: 0.5em;
+}
+
+/* section 2 */
