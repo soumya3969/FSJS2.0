@@ -24,5 +24,12 @@ console.log(a + b);
 
 // function with return file
 
- 
+ function sum1 (val1, val2){
+    let result = val1 +val2;
+    return result;
+ }
+let add = sum1(10, 25);
+console.log(add);
 
+let add1 = sum1(10, 43);
+console.log(add1);
