@@ -24,6 +24,8 @@ body {
 }
 .btn:hover {
   cursor: pointer;
+  transform: scale(1.1);
+  transition-duration: 0.5s;
   /* border-radius: 15rem; */
 }
 /* nav-bar */
@@ -63,7 +65,7 @@ nav {
 }
 .sign-in:hover {
   background-color: #da3f20b4;
-  transition: ease-in-out 1s;
+  transition: ease-in-out 0.5s;
   /* border-radius: 1rem; */
 }
 .sign-up {
@@ -190,153 +192,153 @@ nav {
 .sec2-card-btn:hover {
   background-color: #eb5334;
 }
-.sec2-card-1{
-    background: url(./Assets/Photos/image\ 2.png);
-    background-size: cover;
-    background-position: 75%;
-    border-radius: 5px;
+.sec2-card-1 {
+  background: url(./Assets/Photos/image\ 2.png);
+  background-size: cover;
+  background-position: 75%;
+  border-radius: 5px;
 }
-.sec2-card-2{
-    background: url(./Assets/Photos/image\ 4.png);
-    background-size: cover;
-    background-position: 75%;
-    border-radius: 5px;
+.sec2-card-2 {
+  background: url(./Assets/Photos/image\ 4.png);
+  background-size: cover;
+  background-position: 75%;
+  border-radius: 5px;
 }
-.sec2-card-3{
-    background: url(./Assets/Photos/image\ 3.png);
-    background-size: cover;
-    background-position: 75%;
-    border-radius: 5px;
+.sec2-card-3 {
+  background: url(./Assets/Photos/image\ 3.png);
+  background-size: cover;
+  background-position: 75%;
+  border-radius: 5px;
 }
-.sec2-card-4{
-    background: url(./Assets/Photos/Rectangle\ 56.png);
-    background-size: cover;
-    background-position: 75%;
-    border-radius: 5px;
+.sec2-card-4 {
+  background: url(./Assets/Photos/Rectangle\ 56.png);
+  background-size: cover;
+  background-position: 75%;
+  border-radius: 5px;
 }
 /* section 3 */
-.sec3{
-    display: flex;
-    padding: 0px 5vw;
-    gap: 2vw;
+.sec3 {
+  display: flex;
+  padding: 0px 5vw;
+  gap: 2vw;
 }
-.sec3>div{
-    width: 50%;
-    margin: 2vw;
+.sec3 > div {
+  width: 50%;
+  margin: 2vw;
 }
-.sec3-left-div{
-    max-width: 500px;
-    min-width: 350px;
-    height: 400px;
-    min-height: 300px;
-    background-image: url("./Assets/Photos/Rectangle\ 57.png");
-    background-size: cover;
-    background-position: center;
+.sec3-left-div {
+  max-width: 500px;
+  min-width: 350px;
+  height: 400px;
+  min-height: 300px;
+  background-image: url("./Assets/Photos/Rectangle\ 57.png");
+  background-size: cover;
+  background-position: center;
 }
-.sec3-right-div{
-    align-self: center;
+.sec3-right-div {
+  align-self: center;
 }
-.sec3-heading{
-    font-size: 2.9rem;
-    font-weight: 800;
-    color: #000000;
+.sec3-heading {
+  font-size: 2.9rem;
+  font-weight: 800;
+  color: #000000;
 }
-.sec3-para{
-    color: #747474;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 100;
-    width: 40vw;
-    padding: 2vw 0px;
-    line-height: 25px;
+.sec3-para {
+  color: #747474;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  width: 40vw;
+  padding: 2vw 0px;
+  line-height: 25px;
 }
-.sec3-btn{
-    padding: 15px 20px;
-    border-radius: 5px;
-    border: none;
-    background-color: #f3684f;
-    color: #ffffff;
-    font-size:14px;
-    font-weight: 600px;
-    margin-right: 2.5rem;
+.sec3-btn {
+  padding: 15px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f3684f;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600px;
+  margin-right: 2.5rem;
 }
-.sec3-btn:hover{
-    background-color: #eb5334;
+.sec3-btn:hover {
+  background-color: #eb5334;
 }
-.sec3-learn-more{
-    background-color: #ffffff;
-    color: #f4694c;
-    border: 1px solid #f3684c;
-    padding: 14px 20px;
+.sec3-learn-more {
+  background-color: #ffffff;
+  color: #f4694c;
+  border: 1px solid #f3684c;
+  padding: 14px 20px;
 }
-.sec3-learn-more:hover{
-    color: #ffffff;
-    transition: ease-in-out 0.6s;
+.sec3-learn-more:hover {
+  color: #ffffff;
+  transition: ease-in-out 0.6s;
 }
 /* section 4 */
 
-.sec4{
+.sec4 {
   padding: 5vw;
 }
-.sec4-heading-div{
+.sec4-heading-div {
   display: flex;
   justify-content: space-between;
   margin: 3vw 0px;
 }
-.sec4-heading{
+.sec4-heading {
   font-size: 40px;
   color: #000000;
   padding: 2vw;
 }
-.sec4-arrow-div{
+.sec4-arrow-div {
   display: flex;
   align-items: center;
   gap: 1vw;
 }
-.sec4-arrow{
+.sec4-arrow {
   height: 40px;
   width: 40px;
   padding: 10px;
   background-color: #f3684c;
 }
-.sec4-left-arrow{
+.sec4-left-arrow {
   background-color: #ffded8;
 }
-.sec4-cards img{
+.sec4-cards img {
   width: 200px;
 }
-.sec4-card-div{
-  display:grid;
+.sec4-card-div {
+  display: grid;
   grid-template-columns: 50% 50%;
   row-gap: 5vw;
   column-gap: 2vh;
-  padding:0px 2vw;
+  padding: 0px 2vw;
 }
 
-.sec4-cards{
+.sec4-cards {
   display: flex;
   gap: 3rem;
 }
-.sec4-card-data{
+.sec4-card-data {
   align-self: center;
   width: 50%;
 }
-.sec4-card-heading{
+.sec4-card-heading {
   font-size: 22px;
   color: #000000;
   margin: 0.5em 0px;
 }
-.sec4-card-data a{
+.sec4-card-data a {
   color: #f7785f;
   text-decoration: none;
 }
-.sec4-card-data a:hover{
+.sec4-card-data a:hover {
   text-decoration: underline;
 }
-.sec4-card-data p{
+.sec4-card-data p {
   color: #747474;
   font-family: Arial, Helvetica, sans-serif;
 }
-.sec4-card-btn{
+.sec4-card-btn {
   padding: 15px 30px;
   background-color: #f3684c;
   border-radius: 5px;
@@ -345,47 +347,155 @@ nav {
   border: none;
   font-weight: 600;
 }
-.sec4-card-btn:hover{
+.sec4-card-btn:hover {
   background-color: #eb5334;
-  transition: .4s;
+  transition: 0.4s;
 }
 
 /* section 5 */
-.sec5{
+.sec5 {
   text-align: center;
   margin-top: 1vh;
   background-color: #000000;
   padding: 3vw 0px 0vw 1vw;
 }
-.sec5-heading{
+.sec5-heading {
   font-size: 45px;
   color: #ffffff;
   font-weight: 100;
 }
-.sec5-lower-div{
+.sec5-lower-div {
   display: flex;
-  gap:4vw;
+  gap: 4vw;
   padding: 2vw 7vw;
   padding-bottom: 0px;
   background-image: url("./Assets/Icons/GAMES\ OF\ THE\ WORLD.svg");
   background-repeat: no-repeat;
-  background-size: 60vw;
+  background-size: 65vw;
   background-position: 100% 30%;
 }
-.sec5-lower-div>img{
-  width:350px;
-  height:420px;
+.sec5-lower-div > img {
+  width: 350px;
+  height: 420px;
   min-width: 330px;
   min-height: 400px;
 }
-.sec5-lower-right{
+.sec5-lower-right {
   width: 45vw;
 }
-.sec5-para{
+.sec5-para {
   color: #919191da;
   font-family: Arial, Helvetica, sans-serif;
   text-align: left;
   margin: 5vw 0px;
-  font-weight:100;
+  font-weight: 100;
   line-height: 1.5rem;
+}
+.sec5-both-images {
+  display: flex;
+  gap: 3vw;
+  bottom: 0px;
+}
+.img-1-2 {
+  width: 300px;
+  height: 360px;
+}
+.img-2-2 {
+  height: 250px;
+  align-self: flex-end;
+}
+.sec5-last-div {
+  padding: 7vw 0px;
+  padding-bottom: 10vw;
+  margin-top: 10vw;
+  text-align: center;
+  background-image: url("./Assets/Photos/Rectangle\ 606.png");
+  background-color: #000000b0;
+  background-position: center;
+  background-blend-mode: darken;
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+}
+.sec5-last-5 {
+  font-size: 40px;
+  color: #ffffff;
+  font-weight: 100;
+}
+.sec5-last-div > p {
+  margin: 1vw 0px;
+  font-weight: 100;
+  color: #747474;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5rem;
+}
+
+.sec5-last-div > button {
+  margin: 1vw 0px;
+  font-weight: 100;
+}
+footer {
+  display: flex;
+  padding: 5vw 8vw;
+  background-color: #02020e;
+}
+.footer-logo {
+  width: 25%;
+}
+.footer-logo-img {
+  height: 3.5rem;
+}
+.footer-ul-div {
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
+}
+.footer-logo > p {
+  color: #747474;
+  line-height: 2rem;
+  font-weight: 100;
+  margin: 1vw 0px;
+}
+.footer-logo > a {
+  margin-right: 1vw;
+}
+.footer-logo > a > img:hover {
+  background-color: #f7785f;
+  border-radius: 50%;
+}
+.footer-ul {
+  list-style-type: none;
+}
+
+.footer-ul-div {
+  list-style-type: none;
+  line-height: 3vw;
+}
+.f-list-items {
+  list-style-type: none;
+  font-size: 14px;
+  color: #747474;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.f-list-items:hover {
+  color: #d3d3d3;
+}
+.f-list-heading {
+  font-weight: 100;
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.f-list-heading:hover {
+  color: #f7785f;
+}
+.maker {
+  text-align: center;
+  padding: 20px;
+  background-color: #000000;
+  /* background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e); */
+  background-size: cover;
+  background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 30%, #1c1f5c 100%);
+
 }
