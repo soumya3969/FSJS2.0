@@ -495,7 +495,195 @@ footer {
   background-color: #000000;
   /* background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e); */
   background-size: cover;
-  background-color: #4158D0;
-background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 30%, #1c1f5c 100%);
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 30%,
+    #1c1f5c 100%
+  );
+  animation: infinite;
+}
+@media (max-width: 1030px) {
+  .sec1-n-nav {
+    padding: 0px 4vw;
+  }
+  .sec2 {
+    padding: 8vw 1vw;
+  }
+  .sec2-heading {
+    font-size: 35px;
+    margin: 3vw auto;
+  }
+  .sec2-cards {
+    height: 330px;
+    width: 22vw;
+  }
+  .sec2-card-data {
+    padding: 8px 12px;
+  }
+  .sec2-card-data h5 {
+    font-size: 1.2rem;
+  }
+  .sec2-card-btn {
+    padding: 8px 12px;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .sec3 {
+    padding: 0px 3vw;
+  }
+  .sec3 > div {
+    margin: 1vw;
+  }
+  .sec3-heading {
+    font-size: 2.6rem;
+    font-weight: 900;
+    color: #000000;
+  }
+  .sec3-btn {
+    margin-right: 1.5rem;
+  }
+  .sec4 {
+    padding: 3vw;
+  }
+  .sec4-heading-div {
+    margin: 3vw 2vw;
+  }
+  .sec4-heading {
+    font-size: 35px;
+  }
+  .sec4-cards img {
+    width: 210px;
+  }
+  .sec4-card-div {
+    row-gap: 3vw;
+    padding: 0px 2vw;
+  }
+  .sec4-cards {
+    gap: 1rem;
+  }
+  .sec4-card-heading {
+    font-size: 20px;
+  }
+  .sec4-card-data p {
+    padding: 0.9rem 0px;
+  }
+  .sec4-card-btn {
+    padding: 12px 25px;
+  }
+  .sec5 {
+    padding: 3vw 0px 0vw 1vw;
+  }
+  .sec5-lower-div {
+    gap: 2vw;
+    padding: 2vw 4vw;
+    background-size: 63vw;
+    background-position: 100% 30%;
+  }
+  .sec5-lower-div > img {
+    width: 340px;
+    height: 400px;
+  }
+  .sec5-lower-right {
+    width: 45vw;
+  }
+  .sec5-both-images {
+    gap: 2vw;
+  }
+  .img-1-2 {
+    width: 280px;
+    height: 350px;
+  }
+  .img-2-2 {
+    height: 250px;
+  }
+  .sec5-last-div {
+    padding: 7vw 0px;
+    margin-top: 8vw;
+  }
+}
+@media (max-width: 820px) {
+  .sec1-heading {
+    font-size: 35px;
+    font-weight: 900;
+    color: #ffffff;
+  }
+  .sec4-cards {
+    display: flex;
+    gap: 1rem;
+  }
+  .sec2-cards img {
+    width: 180px;
+  }
+  .sec4-heading {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .sec4-card-data p {
+    padding: 0.8rem 0px;
+  }
+  .sec4-card-btn {
+    padding: 10px 30px;
+    font-size: 12px;
+  }
 
+  .sec5 {
+    padding: 5vw 0px 0vw 0vw;
+  }
+  .sec5-heading {
+    font-size: 35px;
+  }
+  .sec5-lower-div {
+    gap: 2vw;
+    padding: 2vw 3vw;
+    background-image: url("./Assets/Icons/GAMES\ OF\ THE\ WORLD.svg");
+    background-repeat: no-repeat;
+    background-size: 60vw;
+    background-position: 100% 30%;
+  }
+  .sec5-lower-div > img {
+    color: #b9b9b9d7;
+    text-align: left;
+    font-weight: 100;
+    margin: 5vw 0px;
+  }
+  .sec5-both-images {
+    gap: 2vw;
+  }
+  .img-1-2 {
+    width: 210px;
+    height: 300px;
+  }
+  .img-2-2 {
+    width: 250px;
+  }
+}
+
+/* 430px */
+@media (max-width: 430px) {
+  .sec1-n-nav {
+    background-position-x: center;
+    background-position-y: bottom;
+    padding: 0px 4vw;
+  }
+  /* header */
+  .logo-list {
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-logo {
+    height: 35px;
+  }
+  .nav-menu-list {
+    display: block;
+    width: 100vw;
+    position: absolute;
+    z-index: 3;
+    left: 0px;
+    top: -300px;
+    text-align: center;
+    background-color: #eb5334;
+  }
 }
