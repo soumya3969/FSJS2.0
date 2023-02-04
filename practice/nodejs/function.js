@@ -14,7 +14,11 @@ let userdetails = {
     buycourse: function(course){
         this.courselist.push(course);
     },
+    getcousecount: function(){
+        return `${this.firstname} is enrolled in  ${this.courselist.length}`;
+    }
 };
 // console.log(userdetails);
 userdetails.buycourse("FSJS");
 console.log(userdetails);
+console.log(userdetails.getcousecount());
