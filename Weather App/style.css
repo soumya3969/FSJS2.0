@@ -1,0 +1,149 @@
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, #043f30, #0e99b0, #262481, #8d42a8, #59a842);
+    background-size: 1000% 1000%;
+
+    -webkit-animation: cbgc 30s ease infinite;
+    -moz-animation: cbgc 30s ease infinite;
+    animation: cbgc 30s ease infinite;
+
+  }
+  @-webkit-keyframes cbgc {
+    0%{background-position:0% 92%}
+    50%{background-position:100% 9%}
+    100%{background-position:0% 92%}
+  }
+  @-moz-keyframes cbgc {
+    0%{background-position:0% 92%}
+    50%{background-position:100% 9%}
+    100%{background-position:0% 92%}
+  }
+  @keyframes cbgc {
+    0%{background-position:0% 92%}
+    50%{background-position:100% 9%}
+    100%{background-position:0% 92%}
+  }
+  
+  /* designing the weather app container */
+  .container {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding: 15px;
+    background: #07182E;
+    position: relative;
+    place-content: center;
+    place-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+    color: #ffffff;
+    font-family: sans-serif;
+  }
+  
+  /* designing the search area */
+  .searchData {
+    border: transparent;
+  }
+  
+  .searchData input {
+    border: transparent;
+    padding: 5px 15px;
+  }
+  
+  .searchData button {
+    border: transparent;
+    padding: 5px 15px;
+    cursor: pointer;
+    /* padding: 15px 25px; */
+    /* border: unset; */
+    border-radius: 15px;
+    color: #e8e8e8;
+    z-index: 1;
+    background: #212121;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+  }
+
+  
+  button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #e8e8e8;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+  }
+
+  button:hover {
+    color: #212121;
+  }
+
+  button:hover::before {
+    width: 100%;
+  }
+  
+  /* designing the city weather data */
+  .cityWeatherData {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .details {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+  
+
+
+  
+
+  /* jdsjh */
+  .searchData input {
+  margin: 30px;
+  background: none;
+  border: none;
+  outline: none;
+  max-width: 190px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 9999px;
+  box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+  color: #fff;
+}

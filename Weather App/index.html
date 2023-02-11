@@ -1,17 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>weather</title>
-    <link rel="stylesheet" href="./style.cssS">
-</head>
-<body>
-    <form action="">
-        <input type="text" name="" id=""/>
-        <button>Submit</button>
-    </form>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="icon" type="image/x-icon" href="./Assets/icons/1-cloud.svg" />
+    <!-- adding fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+
+    <!-- adding the css file -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- container for holding the weather card -->
+    <div class="container">
+      <h1>Weather Web App</h1>
+
+      <!-- section for searching the weather of a city -->
+      <form onsubmit="getData(event)" class="searchData">
+        <input id="inputBox" type="text" placeholder="Enter the city name" />
+        <button>Search</button>
+      </form>
+
+      <!-- section for displaying the city weather data -->
+      <section class="cityWeatherData">
+        <!-- displaying the country details -->
+        <div class="countryDetails details">
+          <!-- displaying the country name -->
+          <div class="card">
+            <p>Country Name</p>
+            <p id="countryName">__</p>
+          </div>
+
+          <!-- displaying the state name -->
+          <div class="card">
+            <p>State Name</p>
+            <p id="stateName">__</p>
+          </div>
+
+          <!-- displaying the city name -->
+          <div class="card">
+            <p>City Name</p>
+            <p id="cityName">__</p>
+          </div>
+        </div>
+
+        <!-- displaying the weather status -->
+        <div class="weatherDetails details">
+          <!-- displaying the humidity -->
+          <div class="card">
+            <p>Humidity</p>
+            <p id="humidity">__</p>
+          </div>
+
+          <!-- displaying the wind speed -->
+          <div class="card">
+            <p>Wind Speed</p>
+            <p><span id="windSpeed">__</span> KMPH</p>
+          </div>
+
+          <!-- displaying the current temprature in celcius -->
+          <div class="card">
+            <p>temperature</p>
+            <!-- unicode for degree celcius symbol -->
+            <p><span id="temperature">__</span>&#8451;</p>
+          </div>
+
+          <!-- displaying the weather condition -->
+          <div class="card">
+            <img width="20px" id="logoImage" src="" alt="icon" />
+            <p id="weatherStatus">__</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+
+  <!-- adding the javascript file -->
+  <script src="./main.js"></script>
 </html>
-<script src="./main.js"></script>
