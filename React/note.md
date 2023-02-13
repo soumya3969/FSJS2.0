@@ -26,8 +26,8 @@ const names =<h1>Soumya ranjan</h1>; //JSX Element
 ```
 // displays multiple things
 const header =
-<header> // declaring a single element to contain two element
+<div> // declaring a single element to contain two element
 <h1>Soumya ranjan</h1>
 <p> Hello Namaste</p>
-</header>
+</div>
 ```
