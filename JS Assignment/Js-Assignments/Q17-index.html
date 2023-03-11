@@ -1,0 +1,29 @@
+<!-- 17. Write a program which tells the number of days in a month. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    let month = prompt("Enter a month to determine the number of days:");
+
+    if (month === "January" || month === "March" || month === "May" || month === "July" || month === "August" || month === "October" || month === "December") {
+        alert(month + " has 31 days.");
+    } else if (month === "April" || month === "June" || month === "September" || month === "November") {
+        alert(month + " has 30 days.");
+    } else if (month === "February") {
+        alert(month + " has either 28 or 29 days, depending on whether it is a leap year.");
+    } else {
+        alert("Invalid input, please enter a valid month.");
+    }
+
+
+</script>
