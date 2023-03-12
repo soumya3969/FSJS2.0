@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <input type="text" id="month" placeholder="Month" />
+    <button onclick="sm()">result</button>
+
+    <input type="text" id="year" placeholder="year" />
+    <button onclick="look()">result2</button>
+
+    <h1 id="h1"></h1>
+    <h1 id="h2"></h1>
+    <script>
+      let m = [
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December",
+      ];
+
+      function sm() {
+        let c = document.getElementById("month").value;
+        for (let i = 0; i < sdf.length; i++) {
+          let name = m[i];
+          let feb = "February";
+          if (c == name && i % 2 == 1) {
+            alert("30 days");
+          } else if (c == name && i % 2 == 0) {
+            alert("31 days");
+          } else if (feb == c) {
+            alert("28 days");
+          }
+        }
+      }
+
+      function look() {
+        let leap = document.getElementById("year").value;
+        if (year % 4 === 0 && (year % 100 !== 0 || year % 400 === 0)) {
+          console.log("leep year");
+        } else {
+          console.log("no its not a leap year");
+        }
+      }
+    </script>
+  </body>
+</html>
