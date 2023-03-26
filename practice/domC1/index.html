@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <p class="fsjs" id="fsjs2"> <span>Lorem</span> , ipsum dolor.</p>
+    <ul>
+        <li>One</li>
+        <li>Two</li>
+    </ul>
+    <ul>
+        <li class="tech">Javascript</li>
+        <li class="tech">Node js</li>
+        <li class="tech">React js</li>
+    </ul>
+    <script>
+        // console.log(document);
+        // console.log(window.document);
+        // console.log(document.documentElement);
+
+        // console.log(document.head);
+        // console.log(document.body);
+        // console.log(document.body.firstElementChild);
+        // let val= document.getElementById("fsjs2");
+        // console.log(val.innerHTML);
+        // console.log(val.innerText);
+        
+
+        // let val= document.getElementsByClassName("tech")
+        // console.log(val);
+        // console.log(val[0].innerText);
+        // console.log(val[1].innerText);
+        // val[1].innerHTML="Soumya";
+        // val[2].innerHTML= "<h1>Hyyyy</h1>"
+        // val[2].innerText= "<h1>Hyyyy</h1>"
+        
+
+
+        // 3.by Tag name
+        // 4.by tag
+        // never use class and id to select anything on to the browser 
+        // use queryselector to select anything from the browser window.
+
+        let hh=document.querySelector("h1").innerText
+        console.log(hh);
+        let hh2 = document.querySelector(".fsjs").innerHTML
+        console.log(hh2);
+        let hh3 = document.querySelector(".fsjs").innerText
+        console.log(hh3);
+        let hh4 = document.querySelector("#fsjs2").innerText
+        console.log(hh4);
+
+
+
+        // skip
+        let value = document.querySelector("p").style.backgroundColor="red";
+
+
+    </script>
+
+    
+</body>
+</html>
