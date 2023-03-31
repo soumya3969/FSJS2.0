@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Listener</title>
+</head>
+<body>
+    <h1 >Learning Event Listener</h1>
+    <p id="js"></p>
+    <script>
+        document.addEventListener("click",Hello)
+        function Hello(){
+            document.getElementById("js").innerText = "Mouse Clicked";
+        }
+        //  Click onClick mouseenter mouseleave mouseover
+        //input keydown keypress keyup onload
+        document.addEventListener("dblclick",Hello)
+        function Hello(){
+            document.getElementById("js").innerText = "Mouse double Clicked";
+        }
+        document.addEventListener("mouseenter",hello)
+        function hello(){
+           document.getElementById("js").innerText = "Mouse Enter";
+        }
+    </script>
+</body>
+</html>

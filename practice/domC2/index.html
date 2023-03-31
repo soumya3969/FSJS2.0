@@ -11,6 +11,8 @@
     <ul>
 
     </ul>
+    <button id="fsjs2" onclick="maths()">Submit</button>
+    <p id="js"></p>
 
 
 
@@ -24,11 +26,49 @@
         `;
 
 
-        const ul =document.querySelector("ul");
-        ul.innerHTML= list;
+        const s =document.querySelector("ul");
+        s.innerHTML= list;
 
         // create element on screen 
-        
+        let title=document.createElement("h1");
+        title.className="title";
+        title.style.fontSize="25px";
+        title.style.color="green";
+        title.textContent =" creating new Element In Dom Day 2;"
+        // title.innerText =" creating new Element In Dom Day 2;"
+        console.log(title);
+        document.body.appendChild(title);
+        // Remove child  => Assignment
+
+
+
+
+        // forloop
+
+        for(let i =0;i<3;i++) {
+            let para=document.createElement("p")
+            para.classNames="fsjs"
+            para.style.fontSize ="16px"
+            console.log(para);
+            para.textContent = i; 4
+
+            document.body.appendChild(para);
+            // console.log(document.body.appendChild(para));
+        }
+
+        function maths(){
+            let v = prompt("Solve This 50 - 30");
+            if(v == 20){
+                document.getElementById("js").innerText = "Success Redirect"
+                document.getElementById("fsjs2").style.backgroundColor="green"
+            }else{
+                document.getElementById("js").innerText = "Verification Failed"
+                document.getElementById("fsjs2").style.backgroundColor="red"
+            }
+        }
+
+
+
     </script>
     </body>
 </html>
