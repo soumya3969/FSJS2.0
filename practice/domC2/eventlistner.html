@@ -5,25 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Event Listener</title>
+    <style>
+        .js2{
+            margin: 5rem auto;
+            padding: 2rem;
+            border: 1px solid #808080;
+        }
+    </style>
 </head>
 <body>
     <h1 >Learning Event Listener</h1>
     <p id="js"></p>
+    <div id="js2" class="js2"></div>
     <script>
-        document.addEventListener("click",Hello)
-        function Hello(){
-            document.getElementById("js").innerText = "Mouse Clicked";
-        }
+        document.addEventListener("click",Hello1)
+        function Hello1(){
+            document.getElementById("js2").innerText = "Mouse Clicked";
+        }setTimeout
         //  Click onClick mouseenter mouseleave mouseover
         //input keydown keypress keyup onload
-        document.addEventListener("dblclick",Hello)
-        function Hello(){
+
+
+        // Double click
+        document.addEventListener("dblclick",Hello2)
+        function Hello2(){
             document.getElementById("js").innerText = "Mouse double Clicked";
         }
-        document.addEventListener("mouseenter",hello)
-        function hello(){
+
+        // MOUSE Enter
+
+        document.addEventListener("mouseenter",Hello3)
+        function Hello3(){
            document.getElementById("js").innerText = "Mouse Enter";
         }
+
+        // MOUSE LEAVE
+        document.addEventListener("mouseleave",Hello4)
+        function Hello4(){
+            document.getElementById("js").innerText = "Mouse leaved";
+        }
+        // mouseover
+        document.getaddEventListener("mouseover",Hello5)
+        function Hello5(){
+            document.getElementById("js2").innerText = "Mouse over";
+        }
+        // Mouse out
+        document.addEventListener("mouseout",Hello6)
+        function Hello6() {
+            document.getElementById("js2").innerText = "Mouse out";
+        }
+        // key press
+        document.addEventListener("keypress",hello7)
+        function Hello7() {
+            document.getElementById("js2").innerText = "Key pressed";
+        }
+        
     </script>
 </body>
 </html>

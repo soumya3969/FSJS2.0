@@ -1,6 +1,6 @@
 const btn= document.getElementById('btn');
 
-let randomColor= () => {
+const randomColor= () => {
     let val = '123456789ABCDEF';
     let cons ='#';
     for(let i=0; i<6;i++){
@@ -15,6 +15,8 @@ function changeBgColor(){
 }
 
 btn.addEventListener('click',changeBgColor);
+
+
 
 
 const randomBtnColor= () => {
