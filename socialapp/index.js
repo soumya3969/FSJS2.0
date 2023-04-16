@@ -14,10 +14,16 @@ const app = express();
 // *PORT
 const PORT = 3000;
         // !Procee.env.Port
+
+// *Route
+app.get("/", (req, res) =>{
+    res.send("<center><h1>Hello Fsjs 2.0</h1></center>"); //!res.send used to display on web page
+});
+
 // *LISTEN
 app.listen(PORT,() =>{
-    console.log("Server listening on "+PORT);
-})
+    console.log("Server Running");
+});
 
 
 
