@@ -21,8 +21,8 @@ export const isLogggedIn = asyncHandler(async(req,res,next)=>{
     try{
         const decodedJwtPayLoad = JWT.verify(token, config.JWT_SECRET);
         req.user = await User.findById(decodedJwtPayLoad._id,"name email role")
-    } catch (error{
-
+    } catch (error){
+            // not done here
     }
 })
 
