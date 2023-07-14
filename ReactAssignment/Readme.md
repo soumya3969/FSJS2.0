@@ -7,9 +7,9 @@ Here are the links of the React Projects/Assignments;
 >>3. User should be able to edit his existing todo
 >>4. User should be able to delete his existing todo
  <br>
-<!-- not updated yet -->
->Website Link:- [🚀🚀🚀](https://github.com/soumya3969/FSJS2.0/new/main) <br>
->Repo Link: - [🚀🚀🚀](https://github.com/soumya3969/FSJS2.0/new/main)
+
+>Website Link:- [🚀🚀🚀](https://react-todo-soumya3969.vercel.app/) <br>
+>Repo Link: - [🚀🚀🚀](https://github.com/soumya3969/React-Todo)
 
 # <center>-:Project 2:-</center>
 >Rock Paper Scissor: It is a simple and popular game played between two players.<br>
@@ -30,6 +30,5 @@ Here are the links of the React Projects/Assignments;
 >>2. User should be able to search the meal by its name. For example: Burger
 >>3. Meal data should be displayed after search in a proper way to the user
 <br>
-<!-- not updated yet -->
 >Website Link:- [🚀🚀🚀](https://meal-search-mocha.vercel.app/) <br>
->Repo Link: - [🚀🚀🚀](https://github.com/soumya3969/FSJS2.0/new/main)
+>Repo Link: - [🚀🚀🚀](https://github.com/soumya3969/Meal-Search)
