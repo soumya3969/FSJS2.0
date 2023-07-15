@@ -40,7 +40,7 @@ Here are the links of the React Projects/Assignments;
 >>2. User should be able to search the Pokémon by its id or name. For example: 1 or cheri
 >>3. Pokémon data should be displayed after search in a proper way to the user
 <br>
->Website Link:- [🚀🚀🚀]https://pokemon-search-soumya3969.vercel.app/) <br>
+>Website Link:- [🚀🚀🚀](https://pokemon-search-soumya3969.vercel.app/) <br>
 >Repo Link: - [🚀🚀🚀](https://github.com/soumya3969/Pokemon-Search)
 
 # <center>-:Project 5:-</center>
@@ -51,5 +51,5 @@ Here are the links of the React Projects/Assignments;
 >>3. Movie data should be displayed after search in a proper way to the user
 <br>
 <!-- !not updated -->
->Website Link:- [🚀🚀🚀]https://pokemn-search-soumya3969.vercel.app/) <br>
->Repo Link: - [🚀🚀🚀](https://githb.com/soumya3969/Pokemon-Search)
+>Website Link:- [🚀🚀🚀](https://react-movie-app-soumya3969.vercel.app/) <br>
+>Repo Link: - [🚀🚀🚀](https://github.com/soumya3969/react-movie-app)
