@@ -50,6 +50,6 @@ Here are the links of the React Projects/Assignments;
 >>2. User should be able to search the movie by its name. For example: Iron Man
 >>3. Movie data should be displayed after search in a proper way to the user
 <br>
-<!-- !not updated -->
+
 >Website Link:- [🚀🚀🚀](https://react-movie-app-soumya3969.vercel.app/) <br>
 >Repo Link: - [🚀🚀🚀](https://github.com/soumya3969/react-movie-app)
