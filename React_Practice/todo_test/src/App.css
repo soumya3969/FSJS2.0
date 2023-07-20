@@ -182,7 +182,7 @@ ul {
     left: 4px;
   }
   100% {
-    width: 100%;
+    width: 100%; 
     left: -2px;
     padding-left: 0;
   }
