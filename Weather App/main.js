@@ -1,7 +1,4 @@
-// data
-// variable to store the element
-// function to get the data from weather app
-// manipulate the variables of already created element
+
 
 let data;
 
