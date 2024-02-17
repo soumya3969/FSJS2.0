@@ -22,6 +22,10 @@ body {
   color: #ffffff;
   padding: 0px 3vw;
 }
+.btn {
+  transition: 0.5s ease;
+  scale: 1;
+}
 .btn:hover {
   cursor: pointer;
   transform: scale(1.1);
@@ -188,6 +192,8 @@ nav {
   font-size: 15px;
   font-weight: 100;
   border-radius: 5%;
+  scale: 1;
+  transition: 0.5s ease;
 }
 .sec2-card-btn:hover {
   background-color: #eb5334;
